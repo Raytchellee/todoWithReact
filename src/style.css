@@ -1,0 +1,36 @@
+.todolist {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  background-color: aquamarine;
+  border-radius: 0px 5px;
+  padding-left: 5px;
+  margin: 2px;
+  height: 30px;
+  box-shadow: 2px 2px 2px #444;
+}
+
+.todocontainer {
+  margin-top: 20px;
+}
+
+#form {
+  width: 500px;
+  padding: 0px;
+}
+
+form .textInput,
+#label {
+  height: 20px;
+  padding: 2px;
+  margin-left: 5px;
+}
+
+form > .submitInput {
+  height: 30px;
+  /* background-color: #444; */
+}
+
+.button {
+  /* background-color: #444; */
+}
